@@ -37,3 +37,6 @@ gem 'omniauth-google-oauth2', :git => 'git://github.com/zquestz/omniauth-google-
 gem 'figaro'
 
 gem 'rack-cors', :require => 'rack/cors'
+
+# heroku
+gem 'rails_12factor', group: :production
