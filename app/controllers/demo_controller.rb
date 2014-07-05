@@ -1,4 +1,6 @@
 class DemoController < ApplicationController
+  respond_to :json
+
   def members_only
     if @user
       render json: {
