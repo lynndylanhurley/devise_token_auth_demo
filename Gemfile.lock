@@ -23,7 +23,8 @@ GIT
 
 GIT
   remote: git@github.com:lynndylanhurley/devise_token_auth.git
-  revision: 79ee256be6d2c49d695f12d11252605cf4698de4
+  revision: 3250f45856979702c0161f2ccfb6d16dbc3b51a9
+  branch: email-confirmation
   specs:
     devise_token_auth (0.1.6)
       attr_encrypted (~> 1.3)

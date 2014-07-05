@@ -27,7 +27,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 
-gem 'devise_token_auth', git: 'git@github.com:lynndylanhurley/devise_token_auth.git'
+gem 'devise_token_auth', git: 'git@github.com:lynndylanhurley/devise_token_auth.git', branch: 'email-confirmation'
 
 # omniauth providers
 gem 'omniauth-github',        :git => 'git://github.com/intridea/omniauth-github.git'

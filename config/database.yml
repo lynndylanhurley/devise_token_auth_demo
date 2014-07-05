@@ -20,6 +20,8 @@ default: &default
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
+  username: root
+  password:
 
 development:
   <<: *default
@@ -81,5 +83,3 @@ test:
 production:
   <<: *default
   database: devise_token_auth_demo_production
-  username: devise_token_auth_demo
-  password: <%= ENV['DEVISE_TOKEN_AUTH_DEMO_DATABASE_PASSWORD'] %>
