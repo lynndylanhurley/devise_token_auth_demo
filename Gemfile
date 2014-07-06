@@ -28,14 +28,14 @@ gem 'spring',        group: :development
 
 
 #gem 'devise_token_auth', :git => 'git://github.com/lynndylanhurley/devise_token_auth.git'
-gem 'devise_token_auth', '0.1.9'
+gem 'devise_token_auth', '0.1.10'
 
 # omniauth providers
 gem 'omniauth-github',        :git => 'git://github.com/intridea/omniauth-github.git'
 gem 'omniauth-facebook',      :git => 'git://github.com/mkdynamic/omniauth-facebook.git'
 gem 'omniauth-google-oauth2', :git => 'git://github.com/zquestz/omniauth-google-oauth2.git'
 
-gem 'figaro'
+gem 'figaro', :github => "laserlemon/figaro"
 
 gem 'rack-cors', :require => 'rack/cors'
 
