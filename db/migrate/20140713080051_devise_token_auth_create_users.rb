@@ -1,4 +1,3 @@
-# This migration comes from devise_token_auth (originally 20140628234942)
 class DeviseTokenAuthCreateUsers < ActiveRecord::Migration
   def change
     create_table(:users) do |t|
@@ -42,7 +41,7 @@ class DeviseTokenAuthCreateUsers < ActiveRecord::Migration
       t.string :uid, :null => false, :default => ""
 
       ## Tokens
-      t.text :tokens, default: "{}"
+      t.string :tokens, default: "{}"
 
       t.timestamps
     end
