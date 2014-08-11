@@ -25,7 +25,7 @@ module DeviseTokenAuthDemo
         origins '*'
         resource '*',
           :headers => :any,
-          :expose => ['Authorization'], # <-- important!
+          :expose => ['access-token', 'expiry', 'token-type', 'uid', 'client'], # <-- important!
           :methods => [:get, :post, :options, :delete, :put]
       end
     end
