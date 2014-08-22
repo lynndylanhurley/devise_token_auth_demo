@@ -28,7 +28,7 @@ gem 'spring',        group: :development
 
 
 #gem 'devise_token_auth', :git => 'git://github.com/lynndylanhurley/devise_token_auth.git'
-gem 'devise_token_auth', '0.1.25.beta1'
+gem 'devise_token_auth', '0.1.26.beta2'
 
 # omniauth providers
 gem 'omniauth-github',        :git => 'git://github.com/intridea/omniauth-github.git'
