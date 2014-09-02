@@ -1,7 +1,7 @@
 class User < ActiveRecord::Base
   include DeviseTokenAuth::Concerns::User
 
-  validate :ensure_allowed_favorite_color
+  #validate :ensure_allowed_favorite_color
 
   def ensure_allowed_favorite_color
     if favorite_color and favorite_color != ""
