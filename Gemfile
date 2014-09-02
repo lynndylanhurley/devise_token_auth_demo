@@ -28,7 +28,7 @@ gem 'spring',        group: :development
 
 
 #gem 'devise_token_auth', :git => 'git://github.com/lynndylanhurley/devise_token_auth.git'
-gem 'devise_token_auth', '0.1.26'
+gem 'devise_token_auth', '0.1.27.beta3'
 
 # omniauth providers
 gem 'omniauth-github',        :git => 'git://github.com/intridea/omniauth-github.git'
@@ -38,6 +38,10 @@ gem 'omniauth-google-oauth2', :git => 'git://github.com/zquestz/omniauth-google-
 gem 'figaro', :github => "laserlemon/figaro"
 
 gem 'rack-cors', :require => 'rack/cors'
+
+gem 'fuzz_ball'
+
+gem "pry-remote", group: :development
 
 # heroku
 gem 'rails_12factor', group: :production
