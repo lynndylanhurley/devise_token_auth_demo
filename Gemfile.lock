@@ -74,7 +74,7 @@ GEM
       railties (>= 3.2.6, < 5)
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
-    devise_token_auth (0.1.28.beta4)
+    devise_token_auth (0.1.28.beta5)
       devise (~> 3.2)
       rails (~> 4.1)
     erubis (2.7.0)
@@ -194,7 +194,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
-  devise_token_auth (= 0.1.28.beta4)
+  devise_token_auth (= 0.1.28.beta5)
   figaro!
   fuzz_ball
   jbuilder (~> 2.0)
