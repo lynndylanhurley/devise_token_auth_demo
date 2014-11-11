@@ -68,15 +68,15 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.7.1)
-    devise (3.4.0)
+    devise (3.4.1)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 3.2.6, < 5)
       responders
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
-    devise_token_auth (0.1.30.beta2)
-      devise (~> 3.2)
+    devise_token_auth (0.1.30.beta4)
+      devise (~> 3.3)
       rails (~> 4.1)
     erubis (2.7.0)
     execjs (2.2.1)
@@ -154,7 +154,7 @@ GEM
     rake (10.3.2)
     rdoc (4.1.1)
       json (~> 1.4)
-    responders (1.1.1)
+    responders (1.1.2)
       railties (>= 3.2, < 4.2)
     sass (3.2.19)
     sass-rails (4.0.3)
@@ -197,7 +197,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
-  devise_token_auth (= 0.1.30.beta2)
+  devise_token_auth (= 0.1.30.beta4)
   figaro!
   fuzz_ball
   jbuilder (~> 2.0)
