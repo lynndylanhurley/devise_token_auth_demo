@@ -8,5 +8,6 @@ class ApplicationController < ActionController::Base
   def configure_permitted_parameters
     devise_parameter_sanitizer.for(:sign_up) << :favorite_color
     devise_parameter_sanitizer.for(:account_update) << :favorite_color
+    devise_parameter_sanitizer.for(:account_update) << :nickname
   end
 end
